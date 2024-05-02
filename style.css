@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-height: 100vh;
+}
+.side-menu{
+    position:fixed;
+    width: 30vh;
+    min-height: 100vh;
+    background-color: rgb(44, 45, 46);
+    display:flex;
+    flex-direction: column;
+    
+
+}
+.side-menu .brand-name{
+    height:10vh;
+    display:flex;
+    align-items: centre;
+    justify-content: center;
+    font-family: sans-serif;
+    color: azure;
+    
+}
+.side-menu li{
+    text-decoration: none;
+    font-size: 15px;
+    padding:10px 40px;
+    display:flex;
+    justify-items: center;
+    color: azure;
+}
+.side-menu li:hover{
+    color:rgb(44, 45, 46);
+    background: azure;
+}
+.side-menu li img{
+    width:20px;
+    height: 20px;
+}
+.container {
+    width: 100%; /* Set the container width to 100% */
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color to white */
+}
+
+.header {
+    padding: 20px; /* Add padding to the header */
+}
+
+.nav {
+    display: flex; /* Use flexbox for navbar */
+    justify-content: space-between; /* Align items in the navbar */
+    align-items: center; /* Center items vertically */
+}
+
+.collage_name h1 {
+    margin: 0; /* Remove margin from the h1 element */
+}
+
+.user a {
+    text-decoration: none; /* Remove underline from the link */
+    color: #fff; /* Set link color to white */
+    padding: 8px 12px; /* Add padding to the link */
+    border: 1px solid #fff; /* Add border to the link */
+    border-radius: 5px; /* Add border radius */
+}
+
+.user a:hover {
+    background-color: #fff; /* Change background color on hover */
+    color: #333; /* Change text color on hover */
+}
+.content {
+    position: relative;
+    right:0;
+    margin-left: 30vh;
+    padding:11px;
+    margin-top: 0px;
+    
+}
+.content .cards{
+    padding: 10px;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+    
+.content .cards .card{
+  
+    
+    height: 120px;
+    width:180px;
+    background-color: rgb(106, 106, 144);
+    margin:10px;
+    align-items: center;
+    display:flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 black;
+}
+.Table{
+    position: relative;
+    right:0;
+    margin-left: 30vh;
+    padding:10px;
+    margin-top:0;
+    
+} 
+.Activity{
+    background-color: #bfa5a5;
+    position: relative;
+    margin-left: 30vh;
+    box-shadow: 0px 8px 7px 0px rgb(150, 119, 119);
+}
+.Activity .title{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+   
+    
+
